@@ -1,0 +1,359 @@
+[
+	{
+		"code" : "ATL",
+		"name" : "Hartsfield-Jackson Atlanta International",
+		"city" : "Atlanta",
+		"state" : "Georgia",
+		"country": "USA"
+	},
+	{
+		"code" : "ANC",
+		"name" : "Ted Stevens Anchorage International Airport",
+		"city" : "Anchorage",
+		"state" : "Alaska",
+		"country": "USA"
+	},
+	{
+		"code" : "AUS",
+		"name" : "Austin-Bergstrom International",
+		"city" : "Austin",
+		"state" : "Texas",
+		"country": "USA"
+	},
+	{
+		"code" : "BWI",
+		"name" : "Baltimore/Washington International - BWI Airport",
+		"city" : "Baltimore",
+		"state" : "Maryland",
+		"country": "USA"
+	},
+	{
+		"code" : "BOS",
+		"name" : "Logan International",
+		"city" : "Boston",
+		"state" : "Massachusetts",
+		"country": "USA"
+	},
+	{
+		"code" : "CLT",
+		"name" : "Charlotte Douglas International",
+		"city" : "Charlotte",
+		"state" : "North Carolina",
+		"country": "USA"
+	},
+	{
+		"code" : "MDW",
+		"name" : "Chicago",
+		"city" : "Chicago Midway Airport",
+		"state" : "Illinois",
+		"country": "USA"
+	},
+	{
+		"code" : "ORD",
+		"name" : "Chicago O'Hare International",
+		"city" : "Chicago",
+		"state" : "Illinois",
+		"country": "USA"
+	},
+	{
+		"code" : "CVG",
+		"name" : "Cincinnati/Northern Kentucky International",
+		"city" : "Cincinnati",
+		"state" : "Ohio",
+		"country": "USA"
+	},
+	{
+		"code" : "CLE",
+		"name" : "Cleveland Hopkins International",
+		"city" : "Cleveland",
+		"state" : "Ohio",
+		"country": "USA"
+	},
+	{
+		"code" : "CMH",
+		"name" : "Port Columbus International",
+		"city" : "Columbus",
+		"state" : "Ohio",
+		"country": "USA"
+	},
+	{
+		"code" : "DFW",
+		"name" : "Dallas/Ft. Worth International - DFW Airport",
+		"city" : "Dallas",
+		"state" : "Texas",
+		"country": "USA"
+	},
+	{
+		"code" : "DEN",
+		"name" : "Denver International Airport",
+		"city" : "Denver",
+		"state" : "Colorado",
+		"country": "USA"
+	},
+	{
+		"code" : "DTW",
+		"name" : "Detroit Metropolitan Wayne County Airport",
+		"city" : "Detroit",
+		"state" : "Michigan",
+		"country": "USA"
+	},
+	{
+		"code" : "FLL",
+		"name" : "Fort Lauderdale/Hollywood International",
+		"city" : "Fort Lauderdale",
+		"state" : "Florida",
+		"country": "USA"
+	},
+	{
+		"code" : "RSW",
+		"name" : "Southwest Florida International",
+		"city" : "Fort Myers",
+		"state" : "Florida",
+		"country": "USA"
+	},
+	{
+		"code" : "BDL",
+		"name" : "Bradley International",
+		"city" : "Hartford",
+		"state" : "Connecticut",
+		"country": "USA"
+	},
+	{
+		"code" : "HNL",
+		"name" : "Hawaii Honolulu International",
+		"city" : "Hawaii",
+		"state" : "Honolulu",
+		"country": "USA"
+	},
+	{
+		"code" : "IAH",
+		"name" : "George Bush Intercontinental",
+		"city" : "Houston",
+		"state" : "Texas",
+		"country": "USA"
+	},
+	{
+		"code" : "HOU",
+		"name" : "William P. Hobby Airport",
+		"city" : "Houston",
+		"state" : "Texas",
+		"country": "USA"
+	},
+	{
+		"code" : "IND",
+		"name" : "Indianapolis International",
+		"city" : "Indianapolis",
+		"state" : "Indiana",
+		"country": "USA"
+	},
+	{
+		"code" : "MCI",
+		"name" : "Kansas City International",
+		"city" : "Kansas",
+		"state" : "Missouri",
+		"country": "USA"
+	},
+	{
+		"code" : "LAS",
+		"name" : "McCarran International",
+		"city" : "Las Vegas",
+		"state" : "Nevada",
+		"country": "USA"
+	},
+	{
+		"code" : "LAX",
+		"name" : "Los Angeles International - LAX Airport",
+		"city" : "Los Angeles",
+		"state" : "California",
+		"country": "USA"
+	},
+	{
+		"code" : "MEM",
+		"name" : "Memphis International",
+		"city" : "Memphis",
+		"state" : "Tennessee",
+		"country": "USA"
+	},
+	{
+		"code" : "MIA",
+		"name" : "Miami International Airport",
+		"city" : "Miami",
+		"state" : "Florida",
+		"country": "USA"
+	},
+	{
+		"code" : "MSP",
+		"name" : "Minneapolis/St. Paul International",
+		"city" : "Minneapolis",
+		"state" : "Minnesota",
+		"country": "USA"
+	},
+	{
+		"code" : "BNA",
+		"name" : "Nashville International",
+		"city" : "Nashville",
+		"state" : "Tennessee",
+		"country": "USA"
+	},
+	{
+		"code" : "MSY",
+		"name" : "Louis Armstrong International",
+		"city" : "New Orleans",
+		"state" : "Louisiana",
+		"country": "USA"
+	},
+	{
+		"code" : "JFK",
+		"name" : "John F. Kennedy International",
+		"city" : "New York",
+		"state" : "New York",
+		"country": "USA"
+	},
+	{
+		"code" : "LGA",
+		"name" : "LaGuardia International",
+		"city" : "New York",
+		"state" : "New York",
+		"country": "USA"
+	},
+	{
+		"code" : "EWR",
+		"name" : "Newark Liberty International",
+		"city" : "Newark",
+		"state" : "New Jersey",
+		"country": "USA"
+	},
+	{
+		"code" : "OAK",
+		"name" : "Metropolitan Oakland International",
+		"city" : "Oakland",
+		"state" : "California",
+		"country": "USA"
+	},
+	{
+		"code" : "MCO",
+		"name" : "Orlando International",
+		"city" : "Orlando",
+		"state" : "Florida",
+		"country": "USA"
+	},
+	{
+		"code" : "PHL",
+		"name" : "Philadelphia International",
+		"city" : "Philadelphia",
+		"state" : "Pennsylvania",
+		"country": "USA"
+	},
+	{
+		"code" : "PHX",
+		"name" : "Sky Harbor International",
+		"city" : "Phoenix",
+		"state" : "Arizona",
+		"country": "USA"
+	},
+	{
+		"code" : "PIT",
+		"name" : "Pittsburgh International",
+		"city" : "Pittsburgh",
+		"state" : "Pennsylvania",
+		"country": "USA"
+	},
+	{
+		"code" : "PDX",
+		"name" : "Portland International",
+		"city" : "Portland",
+		"state" : "Oregon",
+		"country": "USA"
+	},
+	{
+		"code" : "RDU",
+		"name" : "Raleigh-Durham International",
+		"city" : "Raleigh-Durham",
+		"state" : "North Carolina",
+		"country": "USA"
+	},
+	{
+		"code" : "SMF",
+		"name" : "Sacramento International",
+		"city" : "Sacramento",
+		"state" : "California",
+		"country": "USA"
+	},
+	{
+		"code" : "SLC",
+		"name" : "Salt Lake City International",
+		"city" : "Salt Lake City",
+		"state" : "Utah",
+		"country": "USA"
+	},
+	{
+		"code" : "SAT",
+		"name" : "San Antonio International",
+		"city" : "San Antonio",
+		"state" : "Texas",
+		"country": "USA"
+	},
+	{
+		"code" : "SAN",
+		"name" : "Lindbergh Field International",
+		"city" : "San Diego",
+		"state" : "California",
+		"country": "USA"
+	},
+	{
+		"code" : "SFO",
+		"name" : "San Francisco International",
+		"city" : "San Francisco",
+		"state" : "California",
+		"country": "USA"
+	},
+	{
+		"code" : "SJC",
+		"name" : "Mineta San José International",
+		"city" : "San Jose",
+		"state" : "California",
+		"country": "USA"
+	},
+	{
+		"code" : "SNA",
+		"name" : "John Wayne Airport, Orange County",
+		"city" : "Santa Ana",
+		"state" : "California",
+		"country": "USA"
+	},
+	{
+		"code" : "SEA",
+		"name" : "Seattle-Tacoma International - Seatac Airport",
+		"city" : "Seattle",
+		"state" : "Washington",
+		"country": "USA"
+	},
+	{
+		"code" : "STL",
+		"name" : "Lambert-St. Louis International",
+		"city" : "St. Louis",
+		"state" : "Missouri",
+		"country": "USA"
+	},
+	{
+		"code" : "TPA",
+		"name" : "Tampa International",
+		"city" : "Tampa",
+		"state" : "Florida",
+		"country": "USA"
+	},
+	{
+		"code" : "IAD",
+		"name" : "Dulles International Airport",
+		"city" : "Washington D.C.",
+		"state" : "Washington D.C.",
+		"country": "USA"
+	},
+	{
+		"code" : "DCA",
+		"name" : "Ronald Reagan Washington National",
+		"city" : "Washington D.C.",
+		"state" : "Washington D.C.",
+		"country": "USA"
+	}	
+]
