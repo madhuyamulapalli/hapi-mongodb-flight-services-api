@@ -1,9 +1,9 @@
 /**
  * Dependencies.
  */
-var AirportController = require('../../controllers/airport');
+var AirportController = require('../controllers/airport');
 
-module.exports = exports = function(server) {
+module.exports =  exports = function(server) {
     console.log('Loading Airport routes');
     exports.show(server);
 };
@@ -22,7 +22,7 @@ exports.show = function(server) {
         method: 'GET',
         path: '/airport/{searchTxt}',
         config: {
-            handler: AirportsController.GetAirport
+            handler: AirportController.getAirport
         }
     })
 };

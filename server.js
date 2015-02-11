@@ -12,8 +12,7 @@ server.connection({
 module.exports = server;
 
 require('./src/config/plugins');
-
-app.routes(routes);
+server.route(routes);;
 server.start(function() {
 	server.log("Flights-Server started at : "+server.info.uri);
 });

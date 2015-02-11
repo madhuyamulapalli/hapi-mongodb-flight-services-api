@@ -3,7 +3,7 @@ var Boom = require('boom'),
 /** @module Controller for Customer Group */
 
 /** get all airport details for the searchTxt */
-exports.GetAll = function(request, reply) {
+exports.getAirport = function(request, reply) {
   var queryTxt = request.params.searchTxt;
   Airport.find({ $or: [{code: queryTxt}, {name: queryTxt}, {city: queryTxt}, {state: queryTxt}, {country: queryTxt}] }, function(err, airport) {
         if (!err) {

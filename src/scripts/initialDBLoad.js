@@ -23,7 +23,7 @@ loadJsonDataCollection = function(fileCount) {
 		jsonData = jsonFilesArray[fileCount];
 		model.find().remove(function(err) {
 			if(err) {
-				console.log("failed to remove "+ model +" document");
+				console.log("failed to remove document");
 				return;
 			}
 			console.log("Removing data of "+fileCount);
