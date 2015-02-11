@@ -1,6 +1,6 @@
 var Hapi = require('hapi'),
 	config = require('./src/config/config'),
-	routes = require('./src/config/routes');
+    routes = require('./src/config/routes');
 
 var server = new Hapi.Server();
 
@@ -9,10 +9,13 @@ server.connection({
 	host: config.server.host
 });
 
-module.exports = server;
+db = require('./src/config/db')(server),
+db.startup();
+routes.init(server);
 
-require('./src/config/plugins');
-server.route(routes);;
 server.start(function() {
 	server.log("Flights-Server started at : "+server.info.uri);
 });
+
+
+module.exports = server;
