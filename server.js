@@ -1,5 +1,6 @@
 var Hapi = require('hapi'),
-	config = require('./src/config/config');
+	config = require('./src/config/config'),
+	routes = require('./src/config/routes');
 
 var server = new Hapi.Server();
 
@@ -12,7 +13,7 @@ module.exports = server;
 
 require('./src/config/plugins');
 
-
+app.routes(routes);
 server.start(function() {
 	server.log("Flights-Server started at : "+server.info.uri);
 });
