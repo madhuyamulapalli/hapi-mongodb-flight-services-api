@@ -6,11 +6,15 @@ var server = new Hapi.Server();
 
 server.connection({
 	port: config.server.port,
-	host: config.server.host
+	host: config.server.host,
+	routes: {
+		cors: true
+	}
 });
 
 db = require('./src/config/db')(server),
 db.startup();
+
 routes.init(server);
 
 server.start(function() {

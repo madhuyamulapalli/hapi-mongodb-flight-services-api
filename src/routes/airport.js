@@ -20,7 +20,7 @@ exports.show = function(server) {
 
     server.route({
         method: 'GET',
-        path: '/airport/{searchTxt}',
+        path: '/api/airport/{searchTxt}',
         config: {
             handler: AirportController.getAirport
         }
