@@ -14,6 +14,7 @@
     "mongoose" : "~3.8.2",
     "path" : "~0.11.14",
     "good" : "~5.1.1",
-    "good-console" : "~4.1.0"
+    "good-console" : "~4.1.0",
+    "request" : "~2.40.0"
   }
 }

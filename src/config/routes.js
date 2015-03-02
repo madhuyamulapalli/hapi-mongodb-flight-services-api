@@ -1,5 +1,5 @@
 exports.init = function(server) {
   console.log('Loading routes');
   require('../routes/airport')(server);
-  //require('./routes/customers')(server);
+  require('../routes/itineraries')(server);
  };

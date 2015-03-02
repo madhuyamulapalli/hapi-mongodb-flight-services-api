@@ -5,7 +5,7 @@ var AirportController = require('../controllers/airport');
 
 module.exports =  exports = function(server) {
     console.log('Loading Airport routes');
-    exports.show(server);
+    exports.getAirports(server);
 };
 
 
@@ -16,7 +16,7 @@ module.exports =  exports = function(server) {
  *
  * @param server
  */
-exports.show = function(server) {
+exports.getAirports = function(server) {
 
     server.route({
         method: 'GET',
