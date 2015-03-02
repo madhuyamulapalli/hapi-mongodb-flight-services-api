@@ -1,0 +1,4777 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "Lujj2klCHhnG0OST40LffO",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "DAL",
+     "city": "DFW",
+     "name": "Dallas Love Field"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "DFW",
+     "city": "DFW",
+     "name": "Dallas/Ft Worth International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "EGE",
+     "city": "EGE",
+     "name": "Vail/Eagle Eagle County"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "LAX",
+     "city": "LAX",
+     "name": "Los Angeles International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "PHX",
+     "city": "PHX",
+     "name": "Phoenix Sky Harbor Int'l"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "DFW",
+     "name": "Dallas/Fort Worth"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "EGE",
+     "name": "Vail"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "LAX",
+     "name": "Los Angeles"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "PHX",
+     "name": "Phoenix"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "319",
+     "name": "Airbus A319"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "320",
+     "name": "Airbus A320"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "321",
+     "name": "Airbus A321"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "32B",
+     "name": "Airbus A321 (Sharklets)"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "738",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "757",
+     "name": "Boeing 757"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "763",
+     "name": "Boeing 767"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "CR9",
+     "name": "Canadair RJ 900"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "ZP",
+     "name": "US Flight Segment Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XF",
+     "name": "US Passenger Facility Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "US_001",
+     "name": "US Transportation Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "AY_001",
+     "name": "US September 11th Security Fee"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "NK",
+     "name": "Spirit Airlines"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "US",
+     "name": "US Airways, Inc."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "VX",
+     "name": "Virgin America Inc."
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD274.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf9001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "903"
+        },
+        "id": "GYLHD445Zc2qfCuH",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 3,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Ldir7LZRzvawwmXH",
+          "aircraft": "319",
+          "arrivalTime": "2015-03-03T11:48-07:00",
+          "departureTime": "2015-03-03T08:30-08:00",
+          "origin": "LAX",
+          "destination": "EGE",
+          "originTerminal": "4",
+          "duration": 138,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+          "onTimePerformance": 77,
+          "mileage": 746,
+          "meal": "Food for Purchase",
+          "secure": true,
+          "connectionDuration": 47
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lv+RSmKCAMWDBnSe",
+          "aircraft": "319",
+          "arrivalTime": "2015-03-03T15:40-06:00",
+          "departureTime": "2015-03-03T12:35-07:00",
+          "origin": "EGE",
+          "destination": "DFW",
+          "destinationTerminal": "0",
+          "duration": 125,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+          "onTimePerformance": 74,
+          "mileage": 720,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "491"
+        },
+        "id": "G2gLq5TI-bGY4iRB",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+IOBuypF1TpGBNJ",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T06:37-07:00",
+          "departureTime": "2015-03-11T06:00-05:00",
+          "origin": "DFW",
+          "destination": "PHX",
+          "originTerminal": "E",
+          "destinationTerminal": "4",
+          "duration": 157,
+          "onTimePerformance": 94,
+          "mileage": 865,
+          "secure": true,
+          "connectionDuration": 58
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBVzDcXw+AZ+qESf",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T09:10-07:00",
+          "departureTime": "2015-03-11T07:35-07:00",
+          "origin": "PHX",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "6",
+          "duration": 95,
+          "mileage": 369,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "G2gLq5TI-bGY4iRB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "GYLHD445Zc2qfCuH",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD221.40",
+      "saleFareTotal": "USD221.40",
+      "saleTaxTotal": "USD52.80",
+      "saleTotal": "USD274.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD16.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD16.00"
+       }
+      ],
+      "fareCalculation": "LAX US DFW 110.70QA03ZNW3 US LAX 110.70QA03ZNW3 USD 221.40 END ZP LAX EGE DFW PHX XT 16.60US 16.00ZP 11.20AY 9.00XF LAX4.50 DFW4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD278.70",
+    "id": "RB7HgAGoAqSLUHTyA44Tf900H",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 253,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 85,
+        "flight": {
+         "carrier": "US",
+         "number": "5385"
+        },
+        "id": "GTIcWG4ATOddK7PD",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Li6OgkASZsTZ43wk",
+          "aircraft": "CR9",
+          "arrivalTime": "2015-03-03T16:00-07:00",
+          "departureTime": "2015-03-03T13:35-08:00",
+          "origin": "LAX",
+          "destination": "PHX",
+          "originTerminal": "4",
+          "destinationTerminal": "4",
+          "duration": 85,
+          "operatingDisclosure": "OPERATED BY MESA AIRLINES AS AMERICAN EAGLE",
+          "onTimePerformance": 74,
+          "mileage": 369,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ],
+        "connectionDuration": 35
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 133,
+        "flight": {
+         "carrier": "US",
+         "number": "551"
+        },
+        "id": "GIOC6IYdTCdOoXQR",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LNci00QadozbDAOh",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-03T19:48-06:00",
+          "departureTime": "2015-03-03T16:35-07:00",
+          "origin": "PHX",
+          "destination": "DFW",
+          "originTerminal": "4",
+          "destinationTerminal": "E",
+          "duration": 133,
+          "onTimePerformance": 77,
+          "mileage": 865,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "491"
+        },
+        "id": "G2gLq5TI-bGY4iRB",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+IOBuypF1TpGBNJ",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T06:37-07:00",
+          "departureTime": "2015-03-11T06:00-05:00",
+          "origin": "DFW",
+          "destination": "PHX",
+          "originTerminal": "E",
+          "destinationTerminal": "4",
+          "duration": 157,
+          "onTimePerformance": 94,
+          "mileage": 865,
+          "secure": true,
+          "connectionDuration": 58
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBVzDcXw+AZ+qESf",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T09:10-07:00",
+          "departureTime": "2015-03-11T07:35-07:00",
+          "origin": "PHX",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "6",
+          "duration": 95,
+          "mileage": 369,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "G2gLq5TI-bGY4iRB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "GIOC6IYdTCdOoXQR",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "GTIcWG4ATOddK7PD",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD221.40",
+      "saleFareTotal": "USD221.40",
+      "saleTaxTotal": "USD57.30",
+      "saleTotal": "USD278.70",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD16.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD13.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD16.00"
+       }
+      ],
+      "fareCalculation": "LAX US X/PHX US DFW 110.70QA03ZNW3 US LAX 110.70QA03ZNW3 USD 221.40 END ZP LAX PHX DFW PHX XT 16.60US 16.00ZP 11.20AY 13.50XF LAX4.50 PHX4.50 DFW4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD360.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf9007",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 176,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 176,
+        "flight": {
+         "carrier": "US",
+         "number": "2413"
+        },
+        "id": "GBr4Wc-q5ga6v-LO",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LByoS-lTHlmQe5Cw",
+          "aircraft": "763",
+          "arrivalTime": "2015-03-03T15:26-06:00",
+          "departureTime": "2015-03-03T10:30-08:00",
+          "origin": "LAX",
+          "destination": "DFW",
+          "originTerminal": "4",
+          "destinationTerminal": "0",
+          "duration": 176,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+          "onTimePerformance": 74,
+          "mileage": 1231,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "491"
+        },
+        "id": "G2gLq5TI-bGY4iRB",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+IOBuypF1TpGBNJ",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T06:37-07:00",
+          "departureTime": "2015-03-11T06:00-05:00",
+          "origin": "DFW",
+          "destination": "PHX",
+          "originTerminal": "E",
+          "destinationTerminal": "4",
+          "duration": 157,
+          "onTimePerformance": 94,
+          "mileage": 865,
+          "secure": true,
+          "connectionDuration": 58
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBVzDcXw+AZ+qESf",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T09:10-07:00",
+          "departureTime": "2015-03-11T07:35-07:00",
+          "origin": "PHX",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "6",
+          "duration": 95,
+          "mileage": 369,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "carrier": "US",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "GB03ZNI1"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "G2gLq5TI-bGY4iRB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "segmentId": "GBr4Wc-q5ga6v-LO",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD305.12",
+      "saleFareTotal": "USD305.12",
+      "saleTaxTotal": "USD55.08",
+      "saleTotal": "USD360.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD22.88"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD12.00"
+       }
+      ],
+      "fareCalculation": "LAX US DFW 194.42GB03ZNI1 US LAX 110.70QA03ZNW3 USD 305.12 END ZP LAX DFW PHX XT 22.88US 12.00ZP 11.20AY 9.00XF LAX4.50 DFW4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD360.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf9005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 173,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 173,
+        "flight": {
+         "carrier": "US",
+         "number": "2442"
+        },
+        "id": "GvD+xxK1WC9eNtVf",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LvCiTjxJ3YYDQ1zt",
+          "aircraft": "757",
+          "arrivalTime": "2015-03-03T14:23-06:00",
+          "departureTime": "2015-03-03T09:30-08:00",
+          "origin": "LAX",
+          "destination": "DFW",
+          "originTerminal": "4",
+          "destinationTerminal": "0",
+          "duration": 173,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+          "onTimePerformance": 77,
+          "mileage": 1231,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "491"
+        },
+        "id": "G2gLq5TI-bGY4iRB",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+IOBuypF1TpGBNJ",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T06:37-07:00",
+          "departureTime": "2015-03-11T06:00-05:00",
+          "origin": "DFW",
+          "destination": "PHX",
+          "originTerminal": "E",
+          "destinationTerminal": "4",
+          "duration": 157,
+          "onTimePerformance": 94,
+          "mileage": 865,
+          "secure": true,
+          "connectionDuration": 58
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBVzDcXw+AZ+qESf",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T09:10-07:00",
+          "departureTime": "2015-03-11T07:35-07:00",
+          "origin": "PHX",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "6",
+          "duration": 95,
+          "mileage": 369,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "carrier": "US",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "GB03ZNI1"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "G2gLq5TI-bGY4iRB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "segmentId": "GvD+xxK1WC9eNtVf",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD305.12",
+      "saleFareTotal": "USD305.12",
+      "saleTaxTotal": "USD55.08",
+      "saleTotal": "USD360.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD22.88"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD12.00"
+       }
+      ],
+      "fareCalculation": "LAX US DFW 194.42GB03ZNI1 US LAX 110.70QA03ZNW3 USD 305.12 END ZP LAX DFW PHX XT 22.88US 12.00ZP 11.20AY 9.00XF LAX4.50 DFW4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD360.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf900D",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 179,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 179,
+        "flight": {
+         "carrier": "US",
+         "number": "2426"
+        },
+        "id": "Gy+OgohNmf-zZ82f",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+Ius+k-LXFb1M0O",
+          "aircraft": "738",
+          "arrivalTime": "2015-03-03T12:25-06:00",
+          "departureTime": "2015-03-03T07:26-08:00",
+          "origin": "LAX",
+          "destination": "DFW",
+          "originTerminal": "4",
+          "destinationTerminal": "0",
+          "duration": 179,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+          "onTimePerformance": 97,
+          "mileage": 1231,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "491"
+        },
+        "id": "G2gLq5TI-bGY4iRB",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+IOBuypF1TpGBNJ",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T06:37-07:00",
+          "departureTime": "2015-03-11T06:00-05:00",
+          "origin": "DFW",
+          "destination": "PHX",
+          "originTerminal": "E",
+          "destinationTerminal": "4",
+          "duration": 157,
+          "onTimePerformance": 94,
+          "mileage": 865,
+          "secure": true,
+          "connectionDuration": 58
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBVzDcXw+AZ+qESf",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T09:10-07:00",
+          "departureTime": "2015-03-11T07:35-07:00",
+          "origin": "PHX",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "6",
+          "duration": 95,
+          "mileage": 369,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "carrier": "US",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "GB03ZNI1"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "G2gLq5TI-bGY4iRB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "segmentId": "Gy+OgohNmf-zZ82f",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD305.12",
+      "saleFareTotal": "USD305.12",
+      "saleTaxTotal": "USD55.08",
+      "saleTotal": "USD360.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD22.88"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD12.00"
+       }
+      ],
+      "fareCalculation": "LAX US DFW 194.42GB03ZNI1 US LAX 110.70QA03ZNW3 USD 305.12 END ZP LAX DFW PHX XT 22.88US 12.00ZP 11.20AY 9.00XF LAX4.50 DFW4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD360.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf9003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 170,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 170,
+        "flight": {
+         "carrier": "US",
+         "number": "2463"
+        },
+        "id": "Gp68JDBJDoMmlnSc",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LgYzhgl4zv1snmvD",
+          "aircraft": "757",
+          "arrivalTime": "2015-03-03T23:45-06:00",
+          "departureTime": "2015-03-03T18:55-08:00",
+          "origin": "LAX",
+          "destination": "DFW",
+          "originTerminal": "4",
+          "destinationTerminal": "0",
+          "duration": 170,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+          "onTimePerformance": 87,
+          "mileage": 1231,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "491"
+        },
+        "id": "G2gLq5TI-bGY4iRB",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+IOBuypF1TpGBNJ",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T06:37-07:00",
+          "departureTime": "2015-03-11T06:00-05:00",
+          "origin": "DFW",
+          "destination": "PHX",
+          "originTerminal": "E",
+          "destinationTerminal": "4",
+          "duration": 157,
+          "onTimePerformance": 94,
+          "mileage": 865,
+          "secure": true,
+          "connectionDuration": 58
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBVzDcXw+AZ+qESf",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T09:10-07:00",
+          "departureTime": "2015-03-11T07:35-07:00",
+          "origin": "PHX",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "6",
+          "duration": 95,
+          "mileage": 369,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "carrier": "US",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "GB03ZNI1"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "G2gLq5TI-bGY4iRB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "segmentId": "Gp68JDBJDoMmlnSc",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD305.12",
+      "saleFareTotal": "USD305.12",
+      "saleTaxTotal": "USD55.08",
+      "saleTotal": "USD360.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD22.88"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD12.00"
+       }
+      ],
+      "fareCalculation": "LAX US DFW 194.42GB03ZNI1 US LAX 110.70QA03ZNW3 USD 305.12 END ZP LAX DFW PHX XT 22.88US 12.00ZP 11.20AY 9.00XF LAX4.50 DFW4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD360.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf900E",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 180,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 180,
+        "flight": {
+         "carrier": "US",
+         "number": "2433"
+        },
+        "id": "GBupilgpiAF96pYa",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lp50M5SRBWDGWsXW",
+          "aircraft": "738",
+          "arrivalTime": "2015-03-03T19:55-06:00",
+          "departureTime": "2015-03-03T14:55-08:00",
+          "origin": "LAX",
+          "destination": "DFW",
+          "originTerminal": "4",
+          "destinationTerminal": "0",
+          "duration": 180,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+          "onTimePerformance": 77,
+          "mileage": 1231,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "491"
+        },
+        "id": "G2gLq5TI-bGY4iRB",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+IOBuypF1TpGBNJ",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T06:37-07:00",
+          "departureTime": "2015-03-11T06:00-05:00",
+          "origin": "DFW",
+          "destination": "PHX",
+          "originTerminal": "E",
+          "destinationTerminal": "4",
+          "duration": 157,
+          "onTimePerformance": 94,
+          "mileage": 865,
+          "secure": true,
+          "connectionDuration": 58
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBVzDcXw+AZ+qESf",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T09:10-07:00",
+          "departureTime": "2015-03-11T07:35-07:00",
+          "origin": "PHX",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "6",
+          "duration": 95,
+          "mileage": 369,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "carrier": "US",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "GB03ZNI1"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "G2gLq5TI-bGY4iRB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "segmentId": "GBupilgpiAF96pYa",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD305.12",
+      "saleFareTotal": "USD305.12",
+      "saleTaxTotal": "USD55.08",
+      "saleTotal": "USD360.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD22.88"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD12.00"
+       }
+      ],
+      "fareCalculation": "LAX US DFW 194.42GB03ZNI1 US LAX 110.70QA03ZNW3 USD 305.12 END ZP LAX DFW PHX XT 22.88US 12.00ZP 11.20AY 9.00XF LAX4.50 DFW4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD360.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf9006",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 175,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 175,
+        "flight": {
+         "carrier": "US",
+         "number": "2428"
+        },
+        "id": "GKUA17y8gt-Gse-E",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LkadVsD6Y5xxQpQJ",
+          "aircraft": "757",
+          "arrivalTime": "2015-03-03T12:55-06:00",
+          "departureTime": "2015-03-03T08:00-08:00",
+          "origin": "LAX",
+          "destination": "DFW",
+          "originTerminal": "4",
+          "destinationTerminal": "0",
+          "duration": 175,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+          "onTimePerformance": 84,
+          "mileage": 1231,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "491"
+        },
+        "id": "G2gLq5TI-bGY4iRB",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+IOBuypF1TpGBNJ",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T06:37-07:00",
+          "departureTime": "2015-03-11T06:00-05:00",
+          "origin": "DFW",
+          "destination": "PHX",
+          "originTerminal": "E",
+          "destinationTerminal": "4",
+          "duration": 157,
+          "onTimePerformance": 94,
+          "mileage": 865,
+          "secure": true,
+          "connectionDuration": 58
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBVzDcXw+AZ+qESf",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T09:10-07:00",
+          "departureTime": "2015-03-11T07:35-07:00",
+          "origin": "PHX",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "6",
+          "duration": 95,
+          "mileage": 369,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "carrier": "US",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "GB03ZNI1"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "G2gLq5TI-bGY4iRB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "segmentId": "GKUA17y8gt-Gse-E",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD305.12",
+      "saleFareTotal": "USD305.12",
+      "saleTaxTotal": "USD55.08",
+      "saleTotal": "USD360.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD22.88"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD12.00"
+       }
+      ],
+      "fareCalculation": "LAX US DFW 194.42GB03ZNI1 US LAX 110.70QA03ZNW3 USD 305.12 END ZP LAX DFW PHX XT 22.88US 12.00ZP 11.20AY 9.00XF LAX4.50 DFW4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD360.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf900G",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 181,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 181,
+        "flight": {
+         "carrier": "US",
+         "number": "2419"
+        },
+        "id": "GCp2idNPMGk8twUj",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lb7izBVPOHCej5WI",
+          "aircraft": "32B",
+          "arrivalTime": "2015-03-03T16:45-06:00",
+          "departureTime": "2015-03-03T11:44-08:00",
+          "origin": "LAX",
+          "destination": "DFW",
+          "originTerminal": "4",
+          "destinationTerminal": "0",
+          "duration": 181,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+          "onTimePerformance": 68,
+          "mileage": 1231,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "491"
+        },
+        "id": "G2gLq5TI-bGY4iRB",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+IOBuypF1TpGBNJ",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T06:37-07:00",
+          "departureTime": "2015-03-11T06:00-05:00",
+          "origin": "DFW",
+          "destination": "PHX",
+          "originTerminal": "E",
+          "destinationTerminal": "4",
+          "duration": 157,
+          "onTimePerformance": 94,
+          "mileage": 865,
+          "secure": true,
+          "connectionDuration": 58
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBVzDcXw+AZ+qESf",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T09:10-07:00",
+          "departureTime": "2015-03-11T07:35-07:00",
+          "origin": "PHX",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "6",
+          "duration": 95,
+          "mileage": 369,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "carrier": "US",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "GB03ZNI1"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "G2gLq5TI-bGY4iRB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "segmentId": "GCp2idNPMGk8twUj",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD305.12",
+      "saleFareTotal": "USD305.12",
+      "saleTaxTotal": "USD55.08",
+      "saleTotal": "USD360.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD22.88"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD12.00"
+       }
+      ],
+      "fareCalculation": "LAX US DFW 194.42GB03ZNI1 US LAX 110.70QA03ZNW3 USD 305.12 END ZP LAX DFW PHX XT 22.88US 12.00ZP 11.20AY 9.00XF LAX4.50 DFW4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD360.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf900F",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 180,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 180,
+        "flight": {
+         "carrier": "US",
+         "number": "2420"
+        },
+        "id": "Gb9V7z1ZIlmlf1gy",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LHyHPHWH162o84JV",
+          "aircraft": "738",
+          "arrivalTime": "2015-03-03T11:30-06:00",
+          "departureTime": "2015-03-03T06:30-08:00",
+          "origin": "LAX",
+          "destination": "DFW",
+          "originTerminal": "4",
+          "destinationTerminal": "0",
+          "duration": 180,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+          "onTimePerformance": 95,
+          "mileage": 1231,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "491"
+        },
+        "id": "G2gLq5TI-bGY4iRB",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+IOBuypF1TpGBNJ",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T06:37-07:00",
+          "departureTime": "2015-03-11T06:00-05:00",
+          "origin": "DFW",
+          "destination": "PHX",
+          "originTerminal": "E",
+          "destinationTerminal": "4",
+          "duration": 157,
+          "onTimePerformance": 94,
+          "mileage": 865,
+          "secure": true,
+          "connectionDuration": 58
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBVzDcXw+AZ+qESf",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T09:10-07:00",
+          "departureTime": "2015-03-11T07:35-07:00",
+          "origin": "PHX",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "6",
+          "duration": 95,
+          "mileage": 369,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "carrier": "US",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "GB03ZNI1"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "G2gLq5TI-bGY4iRB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "segmentId": "Gb9V7z1ZIlmlf1gy",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD305.12",
+      "saleFareTotal": "USD305.12",
+      "saleTaxTotal": "USD55.08",
+      "saleTotal": "USD360.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD22.88"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD12.00"
+       }
+      ],
+      "fareCalculation": "LAX US DFW 194.42GB03ZNI1 US LAX 110.70QA03ZNW3 USD 305.12 END ZP LAX DFW PHX XT 22.88US 12.00ZP 11.20AY 9.00XF LAX4.50 DFW4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD360.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf900B",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 178,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 178,
+        "flight": {
+         "carrier": "US",
+         "number": "2410"
+        },
+        "id": "GD+dV8JVyCMiyV3c",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L3veilijC7MjIgNP",
+          "aircraft": "738",
+          "arrivalTime": "2015-03-03T10:53-06:00",
+          "departureTime": "2015-03-03T05:55-08:00",
+          "origin": "LAX",
+          "destination": "DFW",
+          "originTerminal": "4",
+          "destinationTerminal": "0",
+          "duration": 178,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+          "onTimePerformance": 95,
+          "mileage": 1231,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "491"
+        },
+        "id": "G2gLq5TI-bGY4iRB",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+IOBuypF1TpGBNJ",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T06:37-07:00",
+          "departureTime": "2015-03-11T06:00-05:00",
+          "origin": "DFW",
+          "destination": "PHX",
+          "originTerminal": "E",
+          "destinationTerminal": "4",
+          "duration": 157,
+          "onTimePerformance": 94,
+          "mileage": 865,
+          "secure": true,
+          "connectionDuration": 58
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBVzDcXw+AZ+qESf",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T09:10-07:00",
+          "departureTime": "2015-03-11T07:35-07:00",
+          "origin": "PHX",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "6",
+          "duration": 95,
+          "mileage": 369,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "carrier": "US",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "GB03ZNI1"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "G2gLq5TI-bGY4iRB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "segmentId": "GD+dV8JVyCMiyV3c",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD305.12",
+      "saleFareTotal": "USD305.12",
+      "saleTaxTotal": "USD55.08",
+      "saleTotal": "USD360.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD22.88"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD12.00"
+       }
+      ],
+      "fareCalculation": "LAX US DFW 194.42GB03ZNI1 US LAX 110.70QA03ZNW3 USD 305.12 END ZP LAX DFW PHX XT 22.88US 12.00ZP 11.20AY 9.00XF LAX4.50 DFW4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD360.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf900C",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 178,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 178,
+        "flight": {
+         "carrier": "US",
+         "number": "2424"
+        },
+        "id": "GfidWrKiSZ5nt7F4",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LqqFW9oBcEENY0lt",
+          "aircraft": "757",
+          "arrivalTime": "2015-03-03T11:58-06:00",
+          "departureTime": "2015-03-03T07:00-08:00",
+          "origin": "LAX",
+          "destination": "DFW",
+          "originTerminal": "4",
+          "destinationTerminal": "0",
+          "duration": 178,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+          "onTimePerformance": 97,
+          "mileage": 1231,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "491"
+        },
+        "id": "G2gLq5TI-bGY4iRB",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+IOBuypF1TpGBNJ",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T06:37-07:00",
+          "departureTime": "2015-03-11T06:00-05:00",
+          "origin": "DFW",
+          "destination": "PHX",
+          "originTerminal": "E",
+          "destinationTerminal": "4",
+          "duration": 157,
+          "onTimePerformance": 94,
+          "mileage": 865,
+          "secure": true,
+          "connectionDuration": 58
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBVzDcXw+AZ+qESf",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T09:10-07:00",
+          "departureTime": "2015-03-11T07:35-07:00",
+          "origin": "PHX",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "6",
+          "duration": 95,
+          "mileage": 369,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "carrier": "US",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "GB03ZNI1"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "G2gLq5TI-bGY4iRB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "segmentId": "GfidWrKiSZ5nt7F4",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD305.12",
+      "saleFareTotal": "USD305.12",
+      "saleTaxTotal": "USD55.08",
+      "saleTotal": "USD360.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD22.88"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD12.00"
+       }
+      ],
+      "fareCalculation": "LAX US DFW 194.42GB03ZNI1 US LAX 110.70QA03ZNW3 USD 305.12 END ZP LAX DFW PHX XT 22.88US 12.00ZP 11.20AY 9.00XF LAX4.50 DFW4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD360.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf9008",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 176,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 176,
+        "flight": {
+         "carrier": "US",
+         "number": "2474"
+        },
+        "id": "GtNNvFXKYqtppDQa",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LpUhlNgEBuF3hX7M",
+          "aircraft": "738",
+          "arrivalTime": "2015-03-03T21:56-06:00",
+          "departureTime": "2015-03-03T17:00-08:00",
+          "origin": "LAX",
+          "destination": "DFW",
+          "originTerminal": "4",
+          "destinationTerminal": "0",
+          "duration": 176,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+          "onTimePerformance": 65,
+          "mileage": 1231,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "491"
+        },
+        "id": "G2gLq5TI-bGY4iRB",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+IOBuypF1TpGBNJ",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T06:37-07:00",
+          "departureTime": "2015-03-11T06:00-05:00",
+          "origin": "DFW",
+          "destination": "PHX",
+          "originTerminal": "E",
+          "destinationTerminal": "4",
+          "duration": 157,
+          "onTimePerformance": 94,
+          "mileage": 865,
+          "secure": true,
+          "connectionDuration": 58
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBVzDcXw+AZ+qESf",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T09:10-07:00",
+          "departureTime": "2015-03-11T07:35-07:00",
+          "origin": "PHX",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "6",
+          "duration": 95,
+          "mileage": 369,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "carrier": "US",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "GB03ZNI1"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "G2gLq5TI-bGY4iRB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "segmentId": "GtNNvFXKYqtppDQa",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD305.12",
+      "saleFareTotal": "USD305.12",
+      "saleTaxTotal": "USD55.08",
+      "saleTotal": "USD360.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD22.88"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD12.00"
+       }
+      ],
+      "fareCalculation": "LAX US DFW 194.42GB03ZNI1 US LAX 110.70QA03ZNW3 USD 305.12 END ZP LAX DFW PHX XT 22.88US 12.00ZP 11.20AY 9.00XF LAX4.50 DFW4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD360.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf900A",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 177,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 177,
+        "flight": {
+         "carrier": "US",
+         "number": "2459"
+        },
+        "id": "Giu3TmwVaZ6GHcst",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LjvBxnny5kGHQPEc",
+          "aircraft": "757",
+          "arrivalTime": "2015-03-03T20:27-06:00",
+          "departureTime": "2015-03-03T15:30-08:00",
+          "origin": "LAX",
+          "destination": "DFW",
+          "originTerminal": "4",
+          "destinationTerminal": "0",
+          "duration": 177,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+          "onTimePerformance": 71,
+          "mileage": 1231,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "491"
+        },
+        "id": "G2gLq5TI-bGY4iRB",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+IOBuypF1TpGBNJ",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T06:37-07:00",
+          "departureTime": "2015-03-11T06:00-05:00",
+          "origin": "DFW",
+          "destination": "PHX",
+          "originTerminal": "E",
+          "destinationTerminal": "4",
+          "duration": 157,
+          "onTimePerformance": 94,
+          "mileage": 865,
+          "secure": true,
+          "connectionDuration": 58
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBVzDcXw+AZ+qESf",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T09:10-07:00",
+          "departureTime": "2015-03-11T07:35-07:00",
+          "origin": "PHX",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "6",
+          "duration": 95,
+          "mileage": 369,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "carrier": "US",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "GB03ZNI1"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "G2gLq5TI-bGY4iRB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "segmentId": "Giu3TmwVaZ6GHcst",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD305.12",
+      "saleFareTotal": "USD305.12",
+      "saleTaxTotal": "USD55.08",
+      "saleTotal": "USD360.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD22.88"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD12.00"
+       }
+      ],
+      "fareCalculation": "LAX US DFW 194.42GB03ZNI1 US LAX 110.70QA03ZNW3 USD 305.12 END ZP LAX DFW PHX XT 22.88US 12.00ZP 11.20AY 9.00XF LAX4.50 DFW4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD360.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf9009",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 176,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 176,
+        "flight": {
+         "carrier": "US",
+         "number": "2430"
+        },
+        "id": "GXEtiKCR8UQ2ZNvC",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LNgvx-ycKGno1X8R",
+          "aircraft": "757",
+          "arrivalTime": "2015-03-03T13:21-06:00",
+          "departureTime": "2015-03-03T08:25-08:00",
+          "origin": "LAX",
+          "destination": "DFW",
+          "originTerminal": "4",
+          "destinationTerminal": "0",
+          "duration": 176,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+          "onTimePerformance": 84,
+          "mileage": 1231,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "491"
+        },
+        "id": "G2gLq5TI-bGY4iRB",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+IOBuypF1TpGBNJ",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T06:37-07:00",
+          "departureTime": "2015-03-11T06:00-05:00",
+          "origin": "DFW",
+          "destination": "PHX",
+          "originTerminal": "E",
+          "destinationTerminal": "4",
+          "duration": 157,
+          "onTimePerformance": 94,
+          "mileage": 865,
+          "secure": true,
+          "connectionDuration": 58
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBVzDcXw+AZ+qESf",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T09:10-07:00",
+          "departureTime": "2015-03-11T07:35-07:00",
+          "origin": "PHX",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "6",
+          "duration": 95,
+          "mileage": 369,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "carrier": "US",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "GB03ZNI1"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "G2gLq5TI-bGY4iRB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "segmentId": "GXEtiKCR8UQ2ZNvC",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD305.12",
+      "saleFareTotal": "USD305.12",
+      "saleTaxTotal": "USD55.08",
+      "saleTotal": "USD360.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD22.88"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD12.00"
+       }
+      ],
+      "fareCalculation": "LAX US DFW 194.42GB03ZNI1 US LAX 110.70QA03ZNW3 USD 305.12 END ZP LAX DFW PHX XT 22.88US 12.00ZP 11.20AY 9.00XF LAX4.50 DFW4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD360.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf9004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 173,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 173,
+        "flight": {
+         "carrier": "US",
+         "number": "2492"
+        },
+        "id": "G35vZOIj-y6CJWTV",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LmbF6gpVWCPx10Pa",
+          "aircraft": "32B",
+          "arrivalTime": "2015-03-03T23:08-06:00",
+          "departureTime": "2015-03-03T18:15-08:00",
+          "origin": "LAX",
+          "destination": "DFW",
+          "originTerminal": "4",
+          "destinationTerminal": "0",
+          "duration": 173,
+          "operatingDisclosure": "OPERATED BY AMERICAN AIRLINES INC.",
+          "onTimePerformance": 90,
+          "mileage": 1231,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "US",
+         "number": "491"
+        },
+        "id": "G2gLq5TI-bGY4iRB",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+IOBuypF1TpGBNJ",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T06:37-07:00",
+          "departureTime": "2015-03-11T06:00-05:00",
+          "origin": "DFW",
+          "destination": "PHX",
+          "originTerminal": "E",
+          "destinationTerminal": "4",
+          "duration": 157,
+          "onTimePerformance": 94,
+          "mileage": 865,
+          "secure": true,
+          "connectionDuration": 58
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBVzDcXw+AZ+qESf",
+          "aircraft": "321",
+          "arrivalTime": "2015-03-11T09:10-07:00",
+          "departureTime": "2015-03-11T07:35-07:00",
+          "origin": "PHX",
+          "destination": "LAX",
+          "originTerminal": "4",
+          "destinationTerminal": "6",
+          "duration": 95,
+          "mileage": 369,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "carrier": "US",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "GB03ZNI1"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "carrier": "US",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "QA03ZNW3/W",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjFaeG30qQS4ZXp5Lr+08DhBDFvlglCqyFm6Tegkr1BOR",
+        "segmentId": "G2gLq5TI-bGY4iRB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AubD2hbiso6M8KEoMt05FmngrPIVYBGH0zbL7E14oHPc",
+        "segmentId": "G35vZOIj-y6CJWTV",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ASSISTIVE DEVICES",
+            "count": 0,
+            "subcode": "0GM"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "INFANT CAR SEAT",
+            "count": 0,
+            "description": [
+             "Infant Car Seat"
+            ],
+            "subcode": "0G5"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "STROLLER OR PUSHCHAIR",
+            "count": 0,
+            "description": [
+             "Stroller/Pushchair"
+            ],
+            "subcode": "0F4"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD305.12",
+      "saleFareTotal": "USD305.12",
+      "saleTaxTotal": "USD55.08",
+      "saleTotal": "USD360.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD22.88"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD12.00"
+       }
+      ],
+      "fareCalculation": "LAX US DFW 194.42GB03ZNI1 US LAX 110.70QA03ZNW3 USD 305.12 END ZP LAX DFW PHX XT 22.88US 12.00ZP 11.20AY 9.00XF LAX4.50 DFW4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD415.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf9002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 164,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 164,
+        "flight": {
+         "carrier": "NK",
+         "number": "868"
+        },
+        "id": "GUXyhuE6T3jnAmR2",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LJkfRsJ4TPHpb5p+",
+          "aircraft": "320",
+          "arrivalTime": "2015-03-03T23:59-06:00",
+          "departureTime": "2015-03-03T19:15-08:00",
+          "origin": "LAX",
+          "destination": "DFW",
+          "originTerminal": "3",
+          "destinationTerminal": "E",
+          "duration": 164,
+          "onTimePerformance": 60,
+          "mileage": 1231,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 202,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 202,
+        "flight": {
+         "carrier": "NK",
+         "number": "867"
+        },
+        "id": "G6cCaB-eUU0NOYJa",
+        "cabin": "COACH",
+        "bookingCode": "H",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lt0mYafKPBnJ9Cn7",
+          "aircraft": "320",
+          "arrivalTime": "2015-03-11T08:32-07:00",
+          "departureTime": "2015-03-11T07:10-05:00",
+          "origin": "DFW",
+          "destination": "LAX",
+          "originTerminal": "E",
+          "destinationTerminal": "3",
+          "duration": 202,
+          "onTimePerformance": 90,
+          "mileage": 1231,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AgykYMPpLIX/vMmJpBOM0h5bxtCnfqLVFxRLjdU/VRgw",
+        "carrier": "NK",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "Y0Z6NR"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ASBu1Gh5Hn8swLHRPTSZMR+POrHefQ90MfhUgnOXyj/w",
+        "carrier": "NK",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "H7Z6NR"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AgykYMPpLIX/vMmJpBOM0h5bxtCnfqLVFxRLjdU/VRgw",
+        "segmentId": "GUXyhuE6T3jnAmR2",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "kilos": 0,
+          "pieces": 0,
+          "pounds": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ASBu1Gh5Hn8swLHRPTSZMR+POrHefQ90MfhUgnOXyj/w",
+        "segmentId": "G6cCaB-eUU0NOYJa",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "kilos": 0,
+          "pieces": 0,
+          "pounds": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD359.99",
+      "saleFareTotal": "USD359.99",
+      "saleTaxTotal": "USD55.21",
+      "saleTotal": "USD415.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD27.01"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD8.00"
+       }
+      ],
+      "fareCalculation": "LAX NK DFW Q18.60 Q4.65 157.21Y0Z6NR NK LAX Q18.60 Q4.65 156.28H7Z6NR USD 359.99 END ZP LAX DFW XT 27.01US 8.00ZP 11.20AY 9.00XF LAX4.50 DFW4.50",
+      "latestTicketingTime": "2015-03-01T16:18-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD438.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf900J",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 175,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 175,
+        "flight": {
+         "carrier": "VX",
+         "number": "882"
+        },
+        "id": "GbD4qlPvmHHztZrA",
+        "cabin": "COACH",
+        "bookingCode": "I",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LhGcai9zxxAsJuVO",
+          "aircraft": "320",
+          "arrivalTime": "2015-03-03T22:20-06:00",
+          "departureTime": "2015-03-03T17:25-08:00",
+          "origin": "LAX",
+          "destination": "DAL",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 175,
+          "onTimePerformance": 81,
+          "mileage": 1243,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 200,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 200,
+        "flight": {
+         "carrier": "VX",
+         "number": "883"
+        },
+        "id": "GG1cFBLdhCGWN2-8",
+        "cabin": "COACH",
+        "bookingCode": "I",
+        "bookingCodeCount": 1,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LqQT5krELx0y+WJ+",
+          "aircraft": "319",
+          "arrivalTime": "2015-03-11T19:05-07:00",
+          "departureTime": "2015-03-11T17:45-05:00",
+          "origin": "DAL",
+          "destination": "LAX",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 200,
+          "onTimePerformance": 74,
+          "mileage": 1243,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AI6TMTyQW34aFk8pna+tnOjQbvuo/pivJOu0KEEI",
+        "carrier": "VX",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "I3SP"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A3gfQIwC47f/7h69KmuT8pEIMkvwxGJfdL354qmtDBrc",
+        "carrier": "VX",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "I10NR"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AI6TMTyQW34aFk8pna+tnOjQbvuo/pivJOu0KEEI",
+        "segmentId": "GbD4qlPvmHHztZrA",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A3gfQIwC47f/7h69KmuT8pEIMkvwxGJfdL354qmtDBrc",
+        "segmentId": "GG1cFBLdhCGWN2-8",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD381.40",
+      "saleFareTotal": "USD381.40",
+      "saleTaxTotal": "USD56.80",
+      "saleTotal": "USD438.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD28.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD8.00"
+       }
+      ],
+      "fareCalculation": "LAX VX DFW 194.42I3SP VX LAX 186.98I10NR USD 381.40 END ZP LAX DAL XT 28.60US 8.00ZP 11.20AY 9.00XF LAX4.50 DAL4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD438.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf900I",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 175,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 175,
+        "flight": {
+         "carrier": "VX",
+         "number": "874"
+        },
+        "id": "GwFnowSjMoDEvoQB",
+        "cabin": "COACH",
+        "bookingCode": "I",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Ltfn3oagYtWwp7Vm",
+          "aircraft": "319",
+          "arrivalTime": "2015-03-03T12:05-06:00",
+          "departureTime": "2015-03-03T07:10-08:00",
+          "origin": "LAX",
+          "destination": "DAL",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 175,
+          "onTimePerformance": 100,
+          "mileage": 1243,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 200,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 200,
+        "flight": {
+         "carrier": "VX",
+         "number": "871"
+        },
+        "id": "GxNN4oD2iLyZvYhU",
+        "cabin": "COACH",
+        "bookingCode": "I",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LisJVltmDKzetglp",
+          "aircraft": "320",
+          "arrivalTime": "2015-03-11T09:20-07:00",
+          "departureTime": "2015-03-11T08:00-05:00",
+          "origin": "DAL",
+          "destination": "LAX",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 200,
+          "onTimePerformance": 75,
+          "mileage": 1243,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AI6TMTyQW34aFk8pna+tnOjQbvuo/pivJOu0KEEI",
+        "carrier": "VX",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "I3SP"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A3gfQIwC47f/7h69KmuT8pEIMkvwxGJfdL354qmtDBrc",
+        "carrier": "VX",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "I10NR"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A3gfQIwC47f/7h69KmuT8pEIMkvwxGJfdL354qmtDBrc",
+        "segmentId": "GxNN4oD2iLyZvYhU",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AI6TMTyQW34aFk8pna+tnOjQbvuo/pivJOu0KEEI",
+        "segmentId": "GwFnowSjMoDEvoQB",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD381.40",
+      "saleFareTotal": "USD381.40",
+      "saleTaxTotal": "USD56.80",
+      "saleTotal": "USD438.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD28.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD8.00"
+       }
+      ],
+      "fareCalculation": "LAX VX DFW 194.42I3SP VX LAX 186.98I10NR USD 381.40 END ZP LAX DAL XT 28.60US 8.00ZP 11.20AY 9.00XF LAX4.50 DAL4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD438.20",
+    "id": "RB7HgAGoAqSLUHTyA44Tf900K",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 175,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 175,
+        "flight": {
+         "carrier": "VX",
+         "number": "878"
+        },
+        "id": "Ge1z+pitolmTrfYH",
+        "cabin": "COACH",
+        "bookingCode": "I",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LUcI42je8-mN6WdP",
+          "aircraft": "319",
+          "arrivalTime": "2015-03-03T17:25-06:00",
+          "departureTime": "2015-03-03T12:30-08:00",
+          "origin": "LAX",
+          "destination": "DAL",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 175,
+          "onTimePerformance": 90,
+          "mileage": 1243,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 200,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 200,
+        "flight": {
+         "carrier": "VX",
+         "number": "879"
+        },
+        "id": "Gcgvi53LFJum0jEG",
+        "cabin": "COACH",
+        "bookingCode": "I",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L2rF0yuvSuZbAGzo",
+          "aircraft": "320",
+          "arrivalTime": "2015-03-11T14:20-07:00",
+          "departureTime": "2015-03-11T13:00-05:00",
+          "origin": "DAL",
+          "destination": "LAX",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 200,
+          "onTimePerformance": 100,
+          "mileage": 1243,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AI6TMTyQW34aFk8pna+tnOjQbvuo/pivJOu0KEEI",
+        "carrier": "VX",
+        "origin": "LAX",
+        "destination": "DFW",
+        "basisCode": "I3SP"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A3gfQIwC47f/7h69KmuT8pEIMkvwxGJfdL354qmtDBrc",
+        "carrier": "VX",
+        "origin": "DFW",
+        "destination": "LAX",
+        "basisCode": "I10NR"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AI6TMTyQW34aFk8pna+tnOjQbvuo/pivJOu0KEEI",
+        "segmentId": "Ge1z+pitolmTrfYH",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A3gfQIwC47f/7h69KmuT8pEIMkvwxGJfdL354qmtDBrc",
+        "segmentId": "Gcgvi53LFJum0jEG",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD381.40",
+      "saleFareTotal": "USD381.40",
+      "saleTaxTotal": "USD56.80",
+      "saleTotal": "USD438.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD28.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD8.00"
+       }
+      ],
+      "fareCalculation": "LAX VX DFW 194.42I3SP VX LAX 186.98I10NR USD 381.40 END ZP LAX DAL XT 28.60US 8.00ZP 11.20AY 9.00XF LAX4.50 DAL4.50",
+      "latestTicketingTime": "2015-02-28T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}
