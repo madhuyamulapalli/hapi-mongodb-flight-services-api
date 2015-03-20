@@ -36,7 +36,7 @@ Steps to Install:
 	Just go to hapi-mongodb-flight-services-api/src/handlers/itineraries.js file
 	and comment the following lines
 		req.post(
-             config.qpx.endpoint+config.qpx.search+'?key='+config.qpx.key,
+		config.qpx.endpoint+config.qpx.search+'?key='+config.qpx.key,
              {headers: {'content-type': 'application/json'},
              body: JSON.stringify(requestData) },
         function(err, res, data) {
@@ -62,29 +62,29 @@ Steps to Install:
    node server 
 
 
-API's Exposed:
+Flight Search API's:
 
 1. access the airport api from browser or POSTMAN 
 	It lists all the airports with character passed http://localhost:3000/api/airport/{}, i am using this for auto fill in my front end.
 	This is a HTTP GET
 		Example:
 		http://localhost:3000/api/airport/a
-		List all the airports which has letter 'a'
+		lists all the airports which has letter 'a'
 
-2. To get itineraries for the flight search
-	This is HTTP POST
-	Example
+2. To get itineraries for the flight search.
+	This is HTTP POST.
+	Example:
 	To Test in POSTMAN, give url as
 	http://localhost:3000/api/itineraries
 
 	and form data key value pairs as below
 
-	farePrefrence: "Economy"
-	fromAirport: "ATL"
-	fromDate: "2015-03-25"
-	passengers: "1"
-	toAirport: "ANC"
-	toDate: "2015-03-31"
+	farePrefrence: "Economy",
+	fromAirport: "ATL",
+	fromDate: "2015-03-25",
+	passengers: "1",
+	toAirport: "ANC",
+	toDate: "2015-03-31",
 	travelType: "Round-trip"
 
 	Which returns the flight info from QPX API which called in hapijs by /api/itineraries
