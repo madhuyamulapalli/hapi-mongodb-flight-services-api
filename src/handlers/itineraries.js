@@ -1,5 +1,5 @@
 var config = require('../config/config'),
-    request = require('request'),
+    req = require('request'),
     Boom = require('boom');
 var tripData = require('./../data/tripSearchData.json');
      
@@ -8,16 +8,19 @@ exports.getItineraries = function(request, reply) {
     console.log(request.payload);
 	var requestData = _buildRequestData(request);
 	console.log("Query Data: "+requestData);
-    reply(tripData);
-	/*request(config.qpx.endpoint+config.qpx.search+'?key='+config.qpx.key,
-        { json: true, body: JSON.stringfy(requestData) },
+
+    //reply(tripData);
+	req.post(
+             config.qpx.endpoint+config.qpx.search+'?key='+config.qpx.key,
+             {headers: {'content-type': 'application/json'},
+             body: JSON.stringify(requestData) },
         function(err, res, data) {
 	       	if (!err) {
 	            reply(data);
 	        } else {
 	            reply(Boom.badImplementation(err)); // 500 error
 	        }
-	});*/
+	});
 };
 
 
@@ -36,8 +39,8 @@ exports.getItineraries = function(request, reply) {
 
     if(request.payload.travelType =='Round-trip') {
         var returnSlice = {
-            origin: request.payload.fromAirport,
-            destination: request.payload.toAirport,
+            origin: request.payload.toAirport,
+            destination: request.payload.fromAirport,
             date: request.payload.toDate,
             preferredCabin: preferredCabin
         };
